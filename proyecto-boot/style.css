@@ -3,6 +3,7 @@
 .navbar{
   padding: 2rem;
   background-color: #f5f6f7;
+  
 }
 
 .navbar-collapse{
@@ -12,9 +13,10 @@
 /*Estilos Generales*/
 .fotoYo{
   width: 200px;
-  height: 220px;
+  height: 230px;
   background-size: cover;
   border-radius: 50%;
+  margin: 20px;
 }
 
 section{
@@ -24,9 +26,13 @@ section{
   justify-content: center;
 }
 
-h1{
+.title{
   font-size: 2.5rem;
-
+  font-family: "Rubik Dirt", system-ui;
+}
+.subTitle{
+  font-size: 1.5rem;
+  color: #615151;
 }
 /*Seccion Hero*/
 
@@ -35,6 +41,23 @@ h1{
   min-height: 450px;
   text-align: center;
 
+}
+
+.hero-principal{
+  padding: 3rem;
+}
+.react, .github{
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  margin: 20px;
+}
+
+.boots, .html{
+  width: 180px;
+  height: 140px;
+  background-size: cover;
+  margin: 20px;
 }
 
 /*Adaptable (Responsivo)*/
