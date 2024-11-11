@@ -31,8 +31,28 @@ section{
   font-family: "Rubik Dirt", system-ui;
 }
 .subTitle{
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #615151;
+}
+
+.seccion-oscura{
+  color:white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara{
+  color: black;
+  background-color: white; 
+}
+
+.seccion-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive ;
+}
+
+.seccion-texto{
+   font-size: 1.2rem;
 }
 /*Seccion Hero*/
 
@@ -46,7 +66,32 @@ section{
 .hero-principal{
   padding: 3rem;
 }
-.react, .github{
+
+/*Sobre mi*/
+
+.sobre-mi{
+  height: 500px;
+  padding: 10px;
+}
+.sobre-mi .contenedor{
+  max-width: 600px;
+  text-align: center;
+  
+}
+/* Experiencia*/
+.experiencia{
+  padding:20px ;
+}   
+
+ .row div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 250px;
+  background-color: purple;
+  border: 3px solid orange;
+}
+
+.react, .github, .git{
   width: 180px;
   height: 180px;
   background-size: cover;
@@ -67,3 +112,9 @@ section{
     display: none;
   }
 }
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 1200px;
+  }
+}
+
